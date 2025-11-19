@@ -19,7 +19,7 @@ Since generating features with the pre-trained model takes a long time, all init
 + Pre-trained LLM
   + Link: https://pan.baidu.com/s/153kgwV5CmaHAyiODwa2D5Q?pwd=cnzw
   + Extraction code: cnzw
-Download the local_model folder and put it in the root directory ./.
++ Download the local_model folder and put it in the root directory ./.
 
 ## Resources
 + Key Source Files
