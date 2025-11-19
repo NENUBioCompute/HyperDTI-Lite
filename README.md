@@ -1,1 +1,48 @@
 # HyperDTI-Lite
+
+**HyperDTI-Lite**:The model consists of three components: the feature representation module, the hyperbolic representation learning module, and the prediction module. First, the feature representation module extracts homologous heterogeneous features separately from drug SMILES strings and target sequences in Euclidean space. After concatenating these features, they are mapped into hyperbolic space. The hyperbolic representation learning module then performs representation learning on above hyperbolic features. Finally, the prediction module outputs drug–target interaction predictions based on the fused features.
+
+## HyperDTI-Lite
+
+<div align="center">
+<p><img src="fig_model.png" width="800" /></p>
+</div>
+
+## Setup and dependencies 
+
+Dependencies:
+- python 3.9.16
+- pytorch >=1.12
+- pyg	2.2.0
+- rdkit	2022.9.5
+- numpy
+- sklearn
+- tqdm
+- tensorboardX
+- prefetch_generator
+- matplotlib
+
+## Resources:
++ README.md: this file.
++ data: The datasets used in paper.
+	+ **Systems biology dataset**: Construct a heterogeneous network related to drug-target pairs
+ 		+ **Dataset_KB**：	all *.csv files in DrugKB folder	
+   		+ **Dataset_Yamanishi**: 	drug_smiles.csv + protein_fasta.csv + drug_drug.csv + protein_protein.csv + drug_protein.csv
+  	+ **Structural biology dataset**：They are used as input for training the model.
+  		+ **DrugBank**:	DrugBank35022.txt
+  	 	+ **Dataset_in_ne**t:DrugBank7710.txt
+  	  	+ **dataset after remove related data**:new7710.txt
+  	  	+ **Dataset_out_net**:out_net_data.txt
+  	  	+ **Dataset_less**:DrugBank2570.txt
+
++ dataset.py: data process.
++ hyperparameter.py: set the hyperparameters of SSGraphDTI.
++ model.py: SSGraphDTI model architecture and Read systems biology data.
++ pytorchtools: early stopping.
++ SSGraphDTI.py: train and test the model.
+
+
+
+# Run:
+
+python SSGraphDTI.py
