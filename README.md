@@ -7,8 +7,6 @@
 
 **HyperDTI-Lite**: The model consists of three components: the feature representation module, the hyperbolic representation learning module, and the prediction module. First, the feature representation module extracts homologous heterogeneous features separately from drug SMILES strings and target sequences in Euclidean space. After concatenating these features, they are mapped into hyperbolic space. The hyperbolic representation learning module then performs representation learning on above hyperbolic features. Finally, the prediction module outputs drug–target interaction predictions based on the fused features.
 
-## 1
-
 ## Data
 - get from the ./Dataset folder
    - DrugBank is available.
@@ -16,7 +14,8 @@
    - Extraction code: 85ej
    - DrugBank is available for download.
   
-## Model Files to Download
+## Code Approach
+Since generating features with the pre-trained model takes a long time, all initial features are pre-generated and saved as .json files in the ./pre_files/ directory. They can then be directly loaded to produce the features shown in the figure above: F_d, Ld, Pd, Pt, Lt, and Kt. The pre-trained language model files can be downloaded from the following link. 
 + Pre-trained LLM
   + Link: https://pan.baidu.com/s/153kgwV5CmaHAyiODwa2D5Q?pwd=cnzw
   + Extraction code: cnzw
