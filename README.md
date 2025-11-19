@@ -56,5 +56,5 @@ Dependencies:
 
 # Run
 1. Dataset Configuration
-2. Run create_drug_prefile.py and create_target_prefile.py to generate initial feature .json files.
+2. Run `create_drug_prefile.py` and create_target_prefile.py to generate initial feature .json files.
 3. python HyperbolicTriplet.py
