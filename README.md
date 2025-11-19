@@ -8,12 +8,11 @@
 </div>
 
 ## Data
-### Data download
 - get from the ./Dataset folder
-   - Due to file size limitations, only DrugBank and Davis are provided.
+   - DrugBank is available.
 - get from Link: https://pan.baidu.com/s/1vGt320EY2EnnnIdD6qb4cA?pwd=85ej
    - Extraction code: 85ej
-   - DrugBank, Davis, and KIBA are all available for download.
+   - DrugBank is available for download.
 
 ## Resources:
 + Key Source Files
