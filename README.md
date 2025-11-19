@@ -1,6 +1,6 @@
 # HyperDTI-Lite
 
-## HyperDTI-Lite
+## Overview
 <div align="center">
 <p><img src="fig_model.png" width="800" /></p>
 </div>
