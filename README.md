@@ -7,18 +7,13 @@
 <p><img src="fig_model.png" width="800" /></p>
 </div>
 
-## Setup and dependencies 
-Dependencies:
-- python 3.9.16
-- pytorch >=1.12
-- pyg	2.2.0
-- rdkit	2022.9.5
-- numpy
-- sklearn
-- tqdm
-- tensorboardX
-- prefetch_generator
-- matplotlib
+## Data
+### Data download
+- get from the ./Dataset folder
+   - Due to file size limitations, only DrugBank and Davis are provided.
+- get from Link: https://pan.baidu.com/s/1vGt320EY2EnnnIdD6qb4cA?pwd=85ej
+   - Extraction code: 85ej
+   - DrugBank, Davis, and KIBA are all available for download.
 
 ## Resources:
 + Key Source Files
@@ -39,6 +34,18 @@ Dependencies:
   + hyperbolic_linear.py：Self-implemented hyperbolic linear layer.
   + Visualization.py: Visualization Script
 
+## Setup and dependencies 
+Dependencies:
+- python 3.9.16
+- pytorch >=1.12
+- pyg	2.2.0
+- rdkit	2022.9.5
+- numpy
+- sklearn
+- tqdm
+- tensorboardX
+- prefetch_generator
+- matplotlib
 
 
 # Run:
