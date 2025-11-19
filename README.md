@@ -22,20 +22,25 @@ Dependencies:
 
 ## Resources:
 + Key Source Files
-  + HyperbolicTriplet.py：
-  + hyperparameter.py：
-  + model.py：
-  + pytorchtools.py：
-  + dataset.py
+  + HyperbolicTriplet.py：Main File.
+  + hyperparameter.py：Hyperparameter configuration file.
+  + model.py：Model definition file.
+  + pytorchtools.py：Early stopping and loss function definition.
+  + dataset.py: Definition of the Dataset and Dataloader.
+  + utils.py: Associated Functions.
 + Supporting Source Files
-  + creat_drug_prefile.py：
-  + creat_target_prefile.py：
-  + calculate_parameters.py：
-  + operate_drug.py：
-  + operate_target.py：
+  + creat_drug_prefile.py：Pre-generate drug feature .json files for subsequent reading.
+  + creat_target_prefile.py：Pre-generate target feature .json files for subsequent reading.
+  + calculate_parameters.py：Count the learnable parameters of the model.
+  + operate_drug.py：Preprocessing of Drug Inputs.
+  + operate_target.py：Preprocessing of Target Inputs.
+  + EuclideanDTI.py：Main Script for Manifold Ablation Experiment.
+  + model_euc.py: The Euclidean variant of the model for manifold ablation studies.
+  + hyperbolic_linear.py：Self-implemented hyperbolic linear layer.
+  + Visualization.py: Visualization Script
 
 
 
 # Run:
 
-python SSGraphDTI.py
+python HyperbolicTriplet.py
