@@ -8,18 +8,18 @@
 **HyperDTI-Lite**: The model consists of three components: the feature representation module, the hyperbolic representation learning module, and the prediction module. First, the feature representation module extracts homologous heterogeneous features separately from drug SMILES strings and target sequences in Euclidean space. After concatenating these features, they are mapped into hyperbolic space. The hyperbolic representation learning module then performs representation learning on above hyperbolic features. Finally, the prediction module outputs drug–target interaction predictions based on the fused features.
 
 ## Data
-- get from the ./Dataset folder
+- get from the `./Dataset` folder
    - DrugBank is available.
 - get from Link: https://pan.baidu.com/s/1vGt320EY2EnnnIdD6qb4cA?pwd=85ej
    - Extraction code: 85ej
    - DrugBank is available for download.
   
 ## Code Approach
-Since generating features with the pre-trained model takes a long time, all initial features are pre-generated and saved as .json files in the ./pre_files/ directory. They can then be directly loaded to produce the features shown in the figure above: F<sub>d</sub>, L<sub>d</sub>, P<sub>d</sub>, P<sub>t</sub>, L<sub>t</sub>, and K<sub>t</sub>. The pre-trained language model files can be downloaded from the following link. 
+Since generating features with the pre-trained model takes a long time, all initial features are pre-generated and saved as .json files in the `./pre_files/` directory. They can then be directly loaded to produce the features shown in the figure above: F<sub>d</sub>, L<sub>d</sub>, P<sub>d</sub>, P<sub>t</sub>, L<sub>t</sub>, and K<sub>t</sub>. The pre-trained language model files can be downloaded from the following link. 
 + Pre-trained LLM
   + Link: https://pan.baidu.com/s/153kgwV5CmaHAyiODwa2D5Q?pwd=cnzw
   + Extraction code: cnzw
-+ Download the local_model folder and put it in the root directory ./.
++ Download the local_model folder and put it in the root directory `./`.
 
 ## Resources
 + Key Source Files
@@ -57,4 +57,4 @@ Dependencies:
 # Run
 1. Dataset Configuration
 2. Run `create_drug_prefile.py` and `create_target_prefile.py` to generate initial feature `.json` files.
-3. python HyperbolicTriplet.py
+3. python `HyperbolicTriplet.py`
