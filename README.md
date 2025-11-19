@@ -14,6 +14,11 @@
 - get from Link: https://pan.baidu.com/s/1vGt320EY2EnnnIdD6qb4cA?pwd=85ej
    - Extraction code: 85ej
    - DrugBank is available for download.
+   - 
+## Model Files to Download
++ Pre-trained LLM
+  + Link: https://pan.baidu.com/s/153kgwV5CmaHAyiODwa2D5Q?pwd=cnzw
+  + Extraction code: cnzw
 
 ## Resources
 + Key Source Files
