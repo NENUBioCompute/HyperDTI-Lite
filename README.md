@@ -32,7 +32,7 @@
   + EuclideanDTI.py：Main Script for Manifold Ablation Experiment.
   + model_euc.py: The Euclidean variant of the model for manifold ablation studies.
   + hyperbolic_linear.py：Self-implemented hyperbolic linear layer.
-  + Visualization.py: Visualization Script
+  + Visualization.py: Visualization Script.
 
 ## Setup and dependencies 
 Dependencies:
