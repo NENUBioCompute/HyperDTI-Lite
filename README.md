@@ -15,7 +15,7 @@
    - Extraction code: 85ej
    - DrugBank is available for download.
 
-## Resources:
+## Resources
 + Key Source Files
   + HyperbolicTriplet.py：Main File.
   + hyperparameter.py：Hyperparameter configuration file.
@@ -48,6 +48,6 @@ Dependencies:
 - matplotlib
 
 
-# Run:
+# Run
 
 python HyperbolicTriplet.py
