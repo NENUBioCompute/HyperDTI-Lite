@@ -15,7 +15,7 @@
    - DrugBank is available for download.
   
 ## Code Approach
-Since generating features with the pre-trained model takes a long time, all initial features are pre-generated and saved as .json files in the ./pre_files/ directory. They can then be directly loaded to produce the features shown in the figure above: F<sub>d</sub>, Ld, Pd, Pt, Lt, and Kt. The pre-trained language model files can be downloaded from the following link. 
+Since generating features with the pre-trained model takes a long time, all initial features are pre-generated and saved as .json files in the ./pre_files/ directory. They can then be directly loaded to produce the features shown in the figure above: F<sub>d</sub>, L<sub>d</sub>, P<sub>d</sub>, P<sub>t</sub>, L<sub>t</sub>, and K<sub>t</sub>. The pre-trained language model files can be downloaded from the following link. 
 + Pre-trained LLM
   + Link: https://pan.baidu.com/s/153kgwV5CmaHAyiODwa2D5Q?pwd=cnzw
   + Extraction code: cnzw
