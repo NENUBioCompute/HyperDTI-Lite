@@ -42,16 +42,16 @@ Since generating features with the pre-trained model takes a long time, all init
 
 ## Setup and dependencies 
 Dependencies:
-- python 3.9.16
-- pytorch >=1.12
-- pyg	2.2.0
-- rdkit	2022.9.5
-- numpy
-- sklearn
-- tqdm
-- tensorboardX
-- prefetch_generator
-- matplotlib
+- `python 3.9.16`
+- `pytorch >=1.12`
+- `pyg	2.2.0`
+- `rdkit	2022.9.5`
+- `numpy`
+- `sklearn`
+- `tqdm`
+- `tensorboardX`
+- `prefetch_generator`
+- `matplotlib`
 
 
 # Run
