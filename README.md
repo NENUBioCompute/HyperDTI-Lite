@@ -30,8 +30,8 @@ Since generating features with the pre-trained model takes a long time, all init
   + `dataset.py`: Definition of the Dataset and Dataloader.
   + `utils.py`: Associated Functions.
 + Supporting Source Files
-  + `creat_drug_prefile.py`：Pre-generate drug feature `.json` files for subsequent reading.
-  + `creat_target_prefile.py`：Pre-generate target feature `.json` files for subsequent reading.
+  + `creat_drug_prefile.py`：Pre-generate drug feature `.json` files for subsequent loading.
+  + `creat_target_prefile.py`：Pre-generate target feature `.json` files for subsequent loading.
   + `calculate_parameters.py`：Count the learnable parameters of the model.
   + `operate_drug.py`：Preprocessing of Drug Inputs.
   + `operate_target.py`：Preprocessing of Target Inputs.
